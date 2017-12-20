@@ -1,0 +1,83 @@
+.container {
+  width: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 100%;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.glyphicon {
+  vertical-align: text-top;
+}
+
+.table:last-child, .table-responsive:last-child {
+  margin-bottom: 0;
+}
+
+.btn.btn-link {
+  padding: 0;
+}
+.btn.pager-next {
+  margin-left: 5px;
+}
+
+th.cursor {
+  width: 1px;
+}
+th.description {
+  width: auto;
+}
+th.tags {
+  width: 20%;
+}
+th.time {
+  width: 15%;
+  white-space: nowrap;
+}
+th.edit {
+  width: 3%;
+  white-space: nowrap;
+}
+
+table.result-table > tbody > tr.active > td.cursor {
+  background-color: #d3d3d3;
+}
+td.time, td.edit {
+  white-space: nowrap;
+}
+
+td > p {
+  margin: 0;
+  padding-left: 5px;
+}
+
+.highlight.color1 {
+  background-color: #FFFF99
+}
+.highlight.color2 {
+  background-color: #FFDFFF;
+}
+.highlight.color3 {
+  background-color: #CCFF99;
+}
+.highlight.color4 {
+  background-color: #FFCC99;
+}
+
+/* dialog */
+.modal-header {
+  padding: 10px 15px;
+}
+
+.modal-body h5 {
+  font-size: 16px;
+}
+
+th.key {
+  width: 30%;
+  white-space: nowrap;
+}
