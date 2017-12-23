@@ -29,8 +29,11 @@ class PinboardLoader {
             bookmark.url = $element.attr('href');
             bookmark.title = $element.attr('description');
             bookmark.description = $element.attr('extended');
-            const tags = $element.attr('tag');
-            bookmark.tags = (tags == '') ? '' : tags.split(' ').map((item) => '[' + item + ']').join(' ');
+            const tags = $element.attr('tag').split(' ');
+            if ($element.attr('toread')) {
+              tags.push('*toread*');
+            }
+            bookmark.tags = tags.filter((item) => item != '').map((item) => '[' + item + ']').join(' ');
             bookmark.time = $element.attr('time');
             bookmark.searchableText = [
               bookmark.title,
