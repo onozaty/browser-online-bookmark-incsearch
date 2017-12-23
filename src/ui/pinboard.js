@@ -45,7 +45,7 @@ class PinboardLoader {
           resolve(bookmarks);
         })
         .fail((jqXHR, textStatus, errorThrown) => {
-          reject(`${jqXHR.status}(${jqXHR.statusText})`);
+          reject(`${jqXHR.status}:${jqXHR.statusText}`);
         });
     });
   }

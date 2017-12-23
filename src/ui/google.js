@@ -57,7 +57,11 @@ class GoogleLoader {
           resolve(bookmarks);
         })
         .fail((jqXHR, textStatus, errorThrown) => {
-          reject(`${jqXHR.status}(${jqXHR.statusText})`);
+          if (jqXHR.status == 0) {
+            reject(`${jqXHR.statusText}. Please sign in with your Google Account.`);
+          } else {
+            reject(`${jqXHR.status}:${jqXHR.statusText}`);
+          }
         });
     });
   }
