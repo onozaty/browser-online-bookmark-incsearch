@@ -34,6 +34,10 @@ async function loadBookmarks(service) {
 
 async function startup() {
 
+  $(document).on('hidden.bs.modal', () => {
+    $('#query').focus();
+  });
+
   // Sync dialog
   $('#buttonSync').on('click', async () => {
     bookmarks = await loadBookmarks(service);
