@@ -1,4 +1,4 @@
-# Online Bookmark Incremental Search for Firefox
+# Online Bookmark Incremental Search for Firefox and Google Chrome
 
 This extension is a incremental search UI for online bookmarks(Google Bookmarks, Pinboard, etc.), You can find bookmarks quickly.
 
@@ -8,11 +8,16 @@ This extension is a incremental search UI for online bookmarks(Google Bookmarks,
 * Using keyboard shortcuts, You can find bookmarks very quickly.
 * Because the bookmark list is saved locally, you can start searching immediately.
 
+The target browsers are Google Chrome and Firefox.
+
 ## Installation
 
 Install from the following.
 
-* [Online Bookmark Incremental Search for Firefox – Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/online-bookmark-inc-search/)
+* Firefox
+  * [Online Bookmark Incremental Search for Firefox – Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/online-bookmark-inc-search/)
+* Google Chrome
+  * [Online Bookmark Incremental Search for Google Chrome - Chrome WebStore](https://chrome.google.com/webstore/detail/online-bookmark-incsearch/lpaleambpedcnbeaolhoandbffjgidao)
 
 ## Supported services
 
