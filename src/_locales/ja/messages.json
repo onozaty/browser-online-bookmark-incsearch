@@ -1,4 +1,3 @@
 {
-  "extensionName": { "message": "オンラインブックマーク インクリメンタルサーチ" },
   "extensionDescription": { "message": "オンラインブックマーク(Googleブックマーク、Pinboard、はてなブックマーク)をインクリメンタルサーチする画面を提供します。これによりブックマークをすばやく見つけることができます。" }
 }
