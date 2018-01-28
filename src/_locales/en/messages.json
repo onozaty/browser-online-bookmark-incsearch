@@ -1,0 +1,4 @@
+{
+  "extensionName": { "message": "Online Bookmark Incremental Search" },
+  "extensionDescription": { "message": "This extension is a incremental search UI for online bookmarks(Google Bookmarks, Pinboard, etc.), You can find bookmarks quickly." }
+}
