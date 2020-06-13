@@ -1,12 +1,12 @@
 # Online Bookmark Incremental Search for Firefox and Google Chrome
 
-This extension is a incremental search UI for online bookmarks(Google Bookmarks, Pinboard, etc.), You can find bookmarks quickly.
+This extension is an incremental search UI for online bookmarks (Google Bookmarks, Pinboard, and Hatena). You can find your bookmarks quickly.
 
-* Perform an incremental search from title, notes, tags, and list the matched bookmarks.
-* You can search by entering multiple keywords. The supported operators are AND("keyword-a keyword-b"), OR("keyword-a|keyword-b"), NOT("!keyword").
+* Perform an incremental search in the title, notes, and tags; list matching bookmarks.
+* You can search by entering multiple keywords. The supported operators are AND (`keyword-a keyword-b`), OR (`keyword-a|keyword-b`), NOT (`!keyword`).
 * Highlight the part that matched the keyword.
 * Using keyboard shortcuts, You can find bookmarks very quickly.
-* Because the bookmark list is saved locally, you can start searching immediately.
+* Because the bookmark list is saved locally, you can start searching immediately, and it works offline.
 
 The target browsers are Google Chrome and Firefox.
 
