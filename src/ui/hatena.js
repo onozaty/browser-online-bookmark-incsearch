@@ -1,7 +1,7 @@
 class HatenaService {
 
   createEditUrl(bookmark) {
-    return 'http://b.hatena.ne.jp/add?mode=confirm&url=' + encodeURIComponent(bookmark.url);
+    return 'https://b.hatena.ne.jp/add?mode=confirm&url=' + encodeURIComponent(bookmark.url);
   }
 
   newLoader() {
@@ -14,7 +14,7 @@ class HatenaLoader {
   load() {
     return new Promise((resolve, reject) => {
       $.ajax(
-        'http://b.hatena.ne.jp/dump?mode=rss',
+        'https://b.hatena.ne.jp/dump?mode=rss',
         {
           dataType: 'xml'
         })

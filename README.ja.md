@@ -26,4 +26,4 @@ FirefoxとGoogle Chromeに対応しています。
 
 * [Google Bookmarks](https://www.google.com/bookmarks/)
 * [Pinboard](https://pinboard.in/)
-* [はてなブックマーク](http://b.hatena.ne.jp/)
+* [はてなブックマーク](https://b.hatena.ne.jp/)
