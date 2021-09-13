@@ -23,4 +23,4 @@ Install from the following.
 
 * [Google Bookmarks](https://www.google.com/bookmarks/)
 * [Pinboard](https://pinboard.in/)
-* [Hatena Bookmark](http://b.hatena.ne.jp/)
+* [Hatena Bookmark](https://b.hatena.ne.jp/)
