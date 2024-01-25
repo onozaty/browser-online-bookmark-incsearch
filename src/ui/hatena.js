@@ -44,7 +44,14 @@ class HatenaLoader {
           resolve(bookmarks);
         })
         .fail((jqXHR, textStatus, errorThrown) => {
-          reject(`${jqXHR.status}:${jqXHR.statusText}`);
+          console.error('jqXHR', jqXHR);
+          console.error('textStatus', textStatus);
+          console.error('errorThrown', errorThrown);
+          if (jqXHR.status != 200) {
+            reject(`${jqXHR.status}:${jqXHR.statusText}`);
+          } else {
+            reject(`${errorThrown}`);
+          }
         });
     });
   }
