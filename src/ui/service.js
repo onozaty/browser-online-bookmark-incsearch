@@ -5,7 +5,7 @@ const ServiceId = {
 }
 
 const Services = [
-  {id: ServiceId.GOOGLE, name: 'Google Bookmarks', service: new GoogleService()},
   {id: ServiceId.PINBOARD, name: 'Pinboard', service: new PinboardService() },
-  {id: ServiceId.HATENA, name: 'Hatena Bookmarks', service: new HatenaService()}
+  {id: ServiceId.HATENA, name: 'Hatena Bookmarks', service: new HatenaService()},
+  {id: ServiceId.GOOGLE, name: 'Google Bookmarks', service: new GoogleService()}
 ];
