@@ -1,27 +1,29 @@
 {
   "name": "__MSG_extensionName__",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "2.0.4",
   "author": "onozaty",
   "description": "__MSG_extensionDescription__",
   "icons": {
     "128": "icons/icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon128.png"
   },
   "permissions": [
     "storage",
-    "unlimitedStorage",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
     "https://api.pinboard.in/*",
     "https://www.google.com/bookmarks/*",
     "https://b.hatena.ne.jp/*"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "commands": {
-    "_execute_browser_action": {
+    "_execute_action": {
       "suggested_key": {
         "default": "Ctrl+Shift+O"
       }
